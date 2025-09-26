@@ -1,0 +1,51 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Dependency directories
+node_modules/
+
+# Build outputs
+dist/
+build/
+.out/
+.next/
+.cache/
+.coverage/
+coverage/
+.tmp/
+temp/
+
+# Environment and local overrides
+.env
+.env.*
+!.env.example
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Tooling
+.eslintcache
+*.tsbuildinfo
+
+# Package managers (cache only; keep lockfiles committed)
+.pnpm-store/
+.npm/
+.yarn/
